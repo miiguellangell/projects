@@ -3,12 +3,92 @@ body{
     align-items: center;
 }
 .centrado{
+  margin-top: 45px;
     background-color: white;
     text-align: center;
     color: black;
     width: 750px;
     padding: 30px;
     border-radius: 25px;
-    margin:auto;
-    
+}
+.container{
+  text-align: -webkit-center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Helvetica");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  /*   padding: 24px 31px; */
+  padding: min(24px, 3.6vmin) max(4vmin, 31px);
+}
+
+header nav {
+  max-width: 468px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+#head-menu {
+  align-items: center;
+  display: flex;
+  margin-top: 1px;
+  padding-top: min(24px, 3.6vmin);
+  padding-bottom: min(24px, 3.6vmin);
+  justify-content: center;
+  background-color: white;
+
+}
+
+body #head-menu ul {
+  background-color: #E61D2A;
+  border-radius: 30px;
+  padding: 6.4px 21px;
+  margin-inline-start: 0px;
+  padding-inline-start: 22px;
+}
+
+nav ul {
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 0;
+  padding: 6.4px 21px;
+  
+}
+
+nav ul li {
+  
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+}
+
+nav ul li a {
+  color:white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Helvetica", system-ui, sans-serif;
+}
+.logo img{
+  width: 40%;
+  
 }
