@@ -1,0 +1,14 @@
+body{
+    background: rgb(216, 216, 216);
+    align-items: center;
+}
+.centrado{
+    background-color: white;
+    text-align: center;
+    color: black;
+    width: 750px;
+    padding: 30px;
+    border-radius: 25px;
+    margin:auto;
+    
+}
