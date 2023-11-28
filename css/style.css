@@ -1,6 +1,7 @@
 body{
     background: rgb(216, 216, 216);
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 .centrado{
     background-color: white;
